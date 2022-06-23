@@ -1,0 +1,23 @@
+{
+  "name": "creative-business",
+  "version": "1.0.0",
+  "description": "trying out to make a creative-business landing page with tailwind, I'm just fooling around :>",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doobeedoobeedam/creative-business.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doobeedoobeedam/creative-business/issues"
+  },
+  "homepage": "https://github.com/doobeedoobeedam/creative-business#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
